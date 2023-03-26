@@ -8,7 +8,10 @@ as
 well.
 */
 
-var thisIsAVariable = 8;
+var thisIsAVariable;
+thisIsAVariable = 8;
 let thisIsAnother = "Yes";
 const thisIsAConstant = "k0Ns7";
 thisIsAnother = "Changed the var.";
+
+console.log(thisIsAVariable);
