@@ -1,3 +1,4 @@
+// This script is about switch-case continuing till they find break; and about multiple cases executing the same thing.
 let count = 0;
 
 function cc(card) {

@@ -1,3 +1,4 @@
+// This script is about adding another object to the array.
 const myMusic = [
     {
       "artist": "Billy Joel",

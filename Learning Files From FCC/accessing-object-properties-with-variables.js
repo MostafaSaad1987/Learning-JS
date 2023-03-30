@@ -1,11 +1,10 @@
-// Setup
+// This script is about accessing properties through variables.
 const testObj = {
   12: "Namath",
   16: "Montana",
   19: "Unitas"
 };
 
-// Only change code below this line
-// Must be bracket notion if variable.
-const playerNumber = 16;  // Change this line
-const player = testObj[playerNumber];   // Change this line
+// Must be bracket notion if variable, according to my testing.
+const playerNumber = 16;
+const player = testObj[playerNumber];

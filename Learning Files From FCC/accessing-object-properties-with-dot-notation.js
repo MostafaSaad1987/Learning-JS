@@ -1,10 +1,10 @@
-// Setup
+// This script is about accessing object properties through dot notation.
+// Dot notation is used when the property is a single word.
 const testObj = {
   "hat": "ballcap",
   "shirt": "jersey",
   "shoes": "cleats"
 };
 
-// Only change code below this line
-const hatValue = testObj.hat;      // Change this line
-const shirtValue = testObj.shirt;    // Change this line
+const hatValue = testObj.hat;
+const shirtValue = testObj.shirt;

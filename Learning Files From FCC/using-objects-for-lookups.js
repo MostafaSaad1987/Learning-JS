@@ -1,8 +1,7 @@
-// Setup
+// This script is about converting a switch-case statment to an object for easier search.
 function phoneticLookup(val) {
   let result = "";
 
-  // Only change code below this line
   const lookup = {
     "alpha": "Adams",
     "bravo": "Boston",
@@ -12,6 +11,8 @@ function phoneticLookup(val) {
     "foxtrot": "Frank"
   }
   result = lookup[val];
+
+  // Switch-case statment that got changed into the object.
   /*
   switch(val) {
     case "alpha":
@@ -34,7 +35,6 @@ function phoneticLookup(val) {
   }
   */
 
-  // Only change code above this line
   return result;
 }
 

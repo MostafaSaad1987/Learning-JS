@@ -1,3 +1,5 @@
+// This script is about various scripts that grabbed my interest written in JS, collected in one file.
+// This script is redundant now, as I create a new file for each script now.
 var thisIsAVariable;
 thisIsAVariable = 8;
 let thisIsAnother = "Yes";

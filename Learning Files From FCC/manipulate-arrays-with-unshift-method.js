@@ -1,6 +1,6 @@
-// Setup
+// This script is about using unshift.
 const myArray = [["John", 23], ["dog", 3]];
 myArray.shift();
 
-// Only change code below this line
+// Unshift adds an element to the start of the array.
 myArray.unshift(["Paul", 35]);

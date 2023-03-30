@@ -1,4 +1,4 @@
-// Setup
+// This script is about updating object properties.
 const myDog = {
   "name": "Coder",
   "legs": 4,
@@ -6,5 +6,5 @@ const myDog = {
   "friends": ["freeCodeCamp Campers"]
 };
 
-// Only change code below this line
+// Updating the name property.
 myDog.name = "Happy Coder";
