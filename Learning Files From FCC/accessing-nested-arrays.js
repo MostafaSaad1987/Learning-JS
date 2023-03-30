@@ -9,7 +9,6 @@ const myPlants = [
   },
   {
     type: "trees",
-
     list: [
       "fir",
       "pine",
