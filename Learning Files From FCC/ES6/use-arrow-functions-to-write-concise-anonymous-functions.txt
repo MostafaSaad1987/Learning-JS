@@ -1,0 +1,23 @@
+const magic = () => new Date();
+
+/*
+
+Anonymus/inline function:
+
+const myFunc = function() {
+  const myVar = "value";
+  return myVar;
+}
+
+Same as arrow function syntax:
+
+const myFunc = () => {
+  const myVar = "value";
+  return myVar;
+}
+
+Could be simplified to:
+
+const myFunc = () => "value";
+
+*/
