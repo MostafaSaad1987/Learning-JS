@@ -1,0 +1,26 @@
+function mutation(arr) {
+  let word1 = arr[0].toLowerCase().split("");
+  let word2 = arr[1].toLowerCase().split("");
+  let counter = 0;
+
+  let uniq1 = [...new Set(word1)];
+  let uniq2 = [...new Set(word2)];
+
+
+  for(let i = 0; i < uniq2.length; i++) {
+    for(let j = 0; j < uniq1.length; j++) {
+      if(uniq2[i] == uniq1[j]) {
+        counter++;
+        if(counter == uniq2.length) {
+          return true;
+        }
+        continue;
+      }
+    }
+  }
+  return false;
+}
+
+console.log(mutation(["hello", "hey"]));
+console.log(mutation(["Mary", "Army"]));
+console.log(mutation(["voodoo", "no"]));
