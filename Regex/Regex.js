@@ -23,15 +23,15 @@ let result = favRegex.test(favWord);
 // g is for global, to check the whole string.
 // i is to make the search case-insensitive.
 let twinkleStar = "Twinkle, twinkle, little star";
-let starRegex = /Twinkle/gi; // Change this line
-let result = twinkleStar.match(starRegex); // Change this line
+let starRegex = /Twinkle/gi;
+let result = twinkleStar.match(starRegex);
 
 
 
 // Checks for the exact match of a word.
 // In this example it checks for the word "coding".
 // match returns the word, returns null if not found.
-// Returns ["coding"];
+// Returns ["coding"].
 let extractStr = "Extract the word 'coding' from this string.";
 let codingRegex = /coding/;
 let result = extractStr.match(codingRegex);
@@ -53,3 +53,15 @@ let result = movieName.match(noNumRegex).length;
 let sample = "Whitespace is important in separating words";
 let countWhiteSpace = /\s/g;
 let result = sample.match(countWhiteSpace);
+
+// This checks for characters that occur zero or more times.
+// Returns Aaaaaaa, if it was A, it would have returned A, if it was only aaaaaa, then it would have returned null.
+let chewieQuote = "This is Aaaaaaa test.";
+let chewieRegex = /Aa*/;
+let result = chewieQuote.match(chewieRegex);
+
+// This checks for everything that isn't alphanumeric.
+// Returns 6.
+let quoteSample = "The five boxing wizards jump quickly.";
+let nonAlphabetRegex = /\W/g;
+let result = quoteSample.match(nonAlphabetRegex).length;
