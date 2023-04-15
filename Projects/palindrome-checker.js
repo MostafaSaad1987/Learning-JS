@@ -7,8 +7,8 @@ function palindrome(str) {
   result = result.match(alphabetRegexV2);
   console.log(result);
 
-  for(let i = 0; i < result.length; i++){
-    if(result[i] != result[result.length - i - 1]){
+  for (let i = 0; i < result.length; i++) {
+    if (result[i] != result[result.length - i - 1]) {
       return false;
     }
   }
